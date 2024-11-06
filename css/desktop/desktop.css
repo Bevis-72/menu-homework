@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(82, 82, 180);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 100px;
+    box-sizing: border-box;
+    div{
+        font-size: 20px;
+        color: cornsilk;
+        font-family: monospace;
+        transition: 400ms;
+        cursor: pointer;
+    }
+}
+
+.menu>div:hover{
+    color: rgb(244, 182, 56);
+}

@@ -1,0 +1,2 @@
+@import url(./mobile/mobile.css) only screen and (max-width:800px);
+@import url(./desktop/desktop.css) only screen and (min-width:800px);

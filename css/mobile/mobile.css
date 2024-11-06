@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 100%;
+    background-color: rgb(82, 82, 180);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 100px;
+    box-sizing: border-box;
+    div{
+        font-size: 22px;
+        color: cornsilk;
+        font-family: monospace;
+        transition: 400ms;
+        cursor: pointer;
+        border: 2px solid rgb(244, 182, 56);
+        padding: 10px 100px;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+}
+
+.menu>div:hover{
+    background-color: darkred;
+}
